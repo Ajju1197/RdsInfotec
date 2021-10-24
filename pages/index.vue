@@ -5,7 +5,7 @@
     <GetInTouch></GetInTouch>
     <SomeOfOurWorks></SomeOfOurWorks>
     <!-- <Fancy /> -->
-    <LightBox />
+    <!-- <LightBox /> -->
     <about-rds />
     <!-- <ImageGallery /> -->
 

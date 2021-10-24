@@ -39,33 +39,35 @@
             <h2>Usefull Links</h2>
           </div>
           <div class="links flex-wrap list-unstyled">
-            <li>
-              <nuxt-link to="/">Home</nuxt-link>
-            </li>
-            <li>
-              <nuxt-link to="/">Why RDS</nuxt-link>
-            </li>
-            <li>
-              <nuxt-link to="/">About</nuxt-link>
-            </li>
-            <li>
-              <nuxt-link to="/">Careers</nuxt-link>
-            </li>
-            <li>
-              <nuxt-link to="/">Projects</nuxt-link>
-            </li>
-            <li>
-              <nuxt-link to="/">Steel Detailing</nuxt-link>
-            </li>
-            <li>
-              <nuxt-link to="/">Connection Design</nuxt-link>
-            </li>
-            <li>
-              <nuxt-link to="/">Estimation</nuxt-link>
-            </li>
-            <li>
-              <nuxt-link to="/">Contact</nuxt-link>
-            </li>
+            <ul>
+              <li>
+                <nuxt-link to="/">Home</nuxt-link>
+              </li>
+              <li>
+                <nuxt-link to="/">Why RDS</nuxt-link>
+              </li>
+              <li>
+                <nuxt-link to="/">About</nuxt-link>
+              </li>
+              <li>
+                <nuxt-link to="/">Careers</nuxt-link>
+              </li>
+              <li>
+                <nuxt-link to="/">Projects</nuxt-link>
+              </li>
+              <li>
+                <nuxt-link to="/">Steel Detailing</nuxt-link>
+              </li>
+              <li>
+                <nuxt-link to="/">Connection Design</nuxt-link>
+              </li>
+              <li>
+                <nuxt-link to="/">Estimation</nuxt-link>
+              </li>
+              <li>
+                <nuxt-link to="/">Contact</nuxt-link>
+              </li>
+            </ul>
           </div>
         </div>
         <div class="col-md-4"></div>
@@ -78,23 +80,29 @@ export default {}
 </script>
 <style lang="scss">
 .footer {
-  background: blue;
+  background: #151414;
   position: relative;
   font-family: auto;
-  h1 {
-    color: #fff !important;
-    display: block;
-    font-size: 20px;
-    font-weight: 700;
-    font-family: 'Poppins', sans-serif;
-    // margin-bottom: 20px;
+  .about-us-logo {
+    text-align: left !important;
+    h1 {
+      color: #fff !important;
+      display: block;
+      font-size: 20px;
+      font-weight: 700;
+      font-family: 'Poppins', sans-serif;
+      // margin-bottom: 20px;
+    }
   }
-  p {
-    margin-bottom: 14px;
-    font-size: 18px;
-    color: #7e7e7e !important;
-    line-height: 28px;
-    text-align: left;
+  .content {
+    padding: 0 !important;
+    p {
+      margin-bottom: 14px;
+      font-size: 18px;
+      color: #7e7e7e !important;
+      line-height: 28px;
+      text-align: left;
+    }
   }
   .follow {
     color: #fff;

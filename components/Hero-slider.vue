@@ -60,4 +60,12 @@ img {
   width: 100%;
   height: 100%;
 }
+.el-carousel ul li {
+  margin-right: 0 !important;
+}
+.el-carousel .el-carousel__button {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
 </style>

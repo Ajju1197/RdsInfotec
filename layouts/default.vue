@@ -6,11 +6,14 @@
           <div class="top-links container">
             <ul class="d-flex">
               <li>
-                <nuxt-link to="/">kphp,Hyderabad</nuxt-link>
-                <span></span>
+                <nuxt-link to="/"
+                  >kphp,Hyderabad. <span class="ml-3">|</span></nuxt-link
+                >
               </li>
               <li>
-                <nuxt-link to="/">hr@rdsinfotech.com</nuxt-link>
+                <nuxt-link to="/"
+                  >hr@rdsinfotech.com <span class="ml-3">|</span></nuxt-link
+                >
               </li>
               <li>
                 <nuxt-link to="/">+91 40-29563887</nuxt-link>
@@ -28,19 +31,32 @@
         <div class="nav-items">
           <ul class="d-flex">
             <li>
-              <nuxt-link to="/">HOME</nuxt-link>
+              <nuxt-link to="/">
+                <fa
+                  :icon="['fa', 'home']"
+                  style="font-size: 20px"
+                  :style="{ color: '#444', background: '#fff' }"
+                />
+              </nuxt-link>
             </li>
             <li>
-              <nuxt-link to="/carousel">ABOUT</nuxt-link>
+              <nuxt-link to="/about">ABOUT</nuxt-link>
             </li>
             <li>
-              <nuxt-link to="/element-ui">SERVICES</nuxt-link>
+              <nuxt-link to="/whyrds">WHY RDS</nuxt-link>
+            </li>
+
+            <li>
+              <nuxt-link to="/">SERVICES</nuxt-link>
             </li>
             <li>
-              <nuxt-link to="/inspire">CAREERS</nuxt-link>
+              <nuxt-link to="/">PROJECTS</nuxt-link>
             </li>
             <li>
-              <nuxt-link to="/lightbox">CONTACT</nuxt-link>
+              <nuxt-link to="/">CAREERS</nuxt-link>
+            </li>
+            <li>
+              <nuxt-link to="/">CONTACT</nuxt-link>
             </li>
           </ul>
         </div>
@@ -82,10 +98,9 @@ export default {
   },
 }
 </script>
-<style  >
+<style>
 .navbar {
   padding: 0 1em;
-  box-shadow: 0 0 10px 3px rgba(34, 33, 33, 0.2);
 }
 .navbar-brand {
   padding: 0;
@@ -104,7 +119,7 @@ ul {
   align-items: center;
 }
 ul li {
-  margin-right: 1.3em;
+  margin-right: 1.7em;
 }
 li a {
   color: #000000;
@@ -129,6 +144,7 @@ a:hover {
   top: 0;
   left: 0;
   background: #fff;
+  box-shadow: 0 0 10px 3px rgba(34, 33, 33, 0.1);
   -webkit-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
   animation: affix_animation 0.6s ease-in-out;

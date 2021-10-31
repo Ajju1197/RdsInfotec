@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-md-4" v-for="card in cards" :key="card.id">
           <div class="card">
-            <div class="image">
+            <div class="images">
               <nuxt-img
                 :src="card.image"
                 alt="card-image"
@@ -61,18 +61,18 @@ export default {
 </script>
 
 <style>
-.card-section {
-}
 .card-section .card {
   width: 100%;
   padding: 0;
   min-height: 537px;
   border-radius: 10px;
 }
+
 .card img {
   border-radius: 10px;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
+  width: 100%;
 }
 .content {
   padding: 20px 20px;
@@ -93,4 +93,3 @@ h1 {
   margin: 1em 0;
 }
 </style>
-

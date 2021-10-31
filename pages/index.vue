@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div>
     <HeroSlider></HeroSlider>
     <CardSection></CardSection>
     <GetInTouch></GetInTouch>
@@ -8,29 +8,6 @@
     <!-- <LightBox /> -->
     <about-rds />
     <!-- <ImageGallery /> -->
-
-    <!-- <div class="container my-5">
-      <div class="search-input">
-        <input
-          type="text"
-          v-model="search"
-          placeholder="Enter Your State Name.."
-        />
-      </div>
-      <div class="row flex-wrap">
-        <div
-          v-for="post in filterPosts"
-          :key="post.id"
-          class="main-card col-md-4 mt-4"
-        >
-          <div class="card">
-            <span class="state-name">{{ post.state }}</span>
-            <h1>{{ post.title }}</h1>
-            <strong>{{ post.body }}</strong>
-          </div>
-        </div>
-      </div>
-    </div> -->
     <Footer />
   </div>
 </template>

@@ -19,7 +19,7 @@ export default {
             { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }
         ]
     },
-
+    loading: "~/components/Load.vue",
     // Global CSS: https://go.nuxtjs.dev/config-css
     css: [
         'bootstrap/dist/css/bootstrap.css',

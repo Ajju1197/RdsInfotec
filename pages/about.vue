@@ -105,7 +105,7 @@ export default {
   width: 16px;
   height: 16px;
   border-radius: 50%;
-  border: 2px solid #50a1ff;
+  border: 3px solid #50a1ff;
   background-color: #fff;
 }
 </style>

@@ -2,7 +2,7 @@
   <div class="get-in-touch-section">
     <div class="container">
       <div class="section-content">
-        <div class="inner-content">
+        <div class="inner-content text-center">
           <h1>Need help with Strucutural Steel Detailing ?</h1>
           <NuxtLink class="get-in-touch-btn" to="/"
             >GET IN TOUCH WITH US</NuxtLink
@@ -15,7 +15,7 @@
 <script>
 export default {}
 </script>
-<style lang="scss" scoped >
+<style lang="scss" scoped>
 .get-in-touch-section {
   height: 302px;
   background: url('../static/bg-images/bg-image-steel-construction.jpg');
